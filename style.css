@@ -65,6 +65,10 @@ body {
 .second {
   height: 33vh;
   background-color: white;
+  box-shadow: 2px 5px #E5E7EB;
+  align-items: center;
+
+
 }
 .heading {
   margin-left: 50px;
@@ -138,4 +142,42 @@ label {
     color: #596D48;
     text-decoration: none;
     font-weight: bold;
+}
+
+.a-footer{
+    color: white;
+}
+
+.p-footer{
+    font-size: 12px;
+}
+
+.forImage{
+    height: 34vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.forFooter{
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
+
+.semi-transparent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+h1{
+    font-size: 50px;
+    font-family: Norse-Bold;
+    color: white;
 }
