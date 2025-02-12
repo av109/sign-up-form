@@ -1,31 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Sign up Form</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="main">
-        <div class="left">
-            
+      <div class="left"></div>
+      <div class="right">
+        <div class="first">
+          <h3>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <em>now</em> to get started. <br /><br />
+            You <em>know</em> you want to.
+          </h3>
         </div>
-        <div class="right">
-            <div class="first">
-
-            </div>
+        <form action="/submit-form" method="get" >
             <div class="second">
-
+                <h3 class="heading">Let's do this!</h3>
+                <div class="form-main-div">
+                    <div class="form-divs">
+                        <div class="form-div">
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" id="firstName" name="first_name">
+                        </div>
+                        <div class="form-div">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-div">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" required>
+                            <p id="error">*passwords do not match</p>
+                        </div>
+                    </div>
+                    <div class="form-divs">
+                        <div class="form-div">
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" id="lastName" name="last_name">
+                        </div>
+                        <div class="form-div">
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                            <input type="tel" id="phoneNumber" name="phoneNumber">
+                        </div>
+                        <div class="form-div">
+                            <label for="confirmPassword">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirmPassword" name="confirmPassword" required>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="third">
-                
-            </div>
-        </div>
+        <div class="third"></div>
+      </div>
     </div>
+  </div>
 
-
-
-    <script src="script.js"></script>
-</body>
+  <script src="script.js"></script>
+  </body>
 </html>
