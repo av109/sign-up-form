@@ -1,0 +1,39 @@
+@font-face {
+    font-family: norse-bold;
+    src: url('assets/Norsebold.otf');
+}
+
+@font-face {
+    font-family: norse;
+    src: url('assets/Norse.otf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left{
+    background-image: url("./assets/bg.jpg");
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: norse-bold, Arial;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    
+}
