@@ -105,6 +105,37 @@ label {
   color: #3b3b3c;
 }
 
+#error{
+    color: red;
+    font-size: 10px;
+    margin: 1px;
+}
+
+.btn-green{
+    background-color: #596D48;
+    color: white;
+    border: 1px solid #596D48;
+    border-radius: 10px;
+    height: 40px;
+    width: 155px;
+    font-weight: 700;
+    font-size:small;
+    box-shadow: 2px 5px #E5E7EB;
+}
+
 .third {
-  height: 33vh;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.hyperlink{
+    margin-left: 50px;
+    margin-top: 25px;
+    font-weight: 400;
+}
+
+.login{
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
 }
